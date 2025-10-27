@@ -1,4 +1,3 @@
-/* Ganti seluruh isi Tasks.css dengan ini */
 .tasks-wrapper {
   margin-top: 30px;
 }
@@ -14,7 +13,6 @@
 .menu-button, .task-menu-button { background-color: rgba(255, 255, 255, 0.2); border: none; border-radius: 4px; color: white; padding: 5px 10px; cursor: pointer; font-weight: bold; font-size: 18px; line-height: 1; }
 .task-menu-button { background: none; color: #888; }
 
-/* Styling untuk item task dalam daftar */
 .task-item {
   background-color: white;
   border-radius: 8px;
@@ -24,11 +22,11 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-  border-left: 5px solid transparent; /* Border default */
+  border-left: 5px solid transparent; 
   cursor: pointer;
 }
 .task-item.active {
-  border-left-color: #333; /* Border untuk task aktif */
+  border-left-color: #333; 
 }
 .task-item .task-title { font-size: 16px; font-weight: bold; display: flex; align-items: center; }
 .check-icon { color: #dfdfdf; margin-right: 10px; }
@@ -37,10 +35,10 @@
 .task-progress { display: flex; align-items: center; gap: 10px; font-size: 16px; color: #aaa; }
 .task-progress span:first-child { font-weight: bold; color: #333; }
 
-/* Tombol 'Add Task' */
+
 .add-task-button { background-color: rgba(0, 0, 0, 0.1); border: 2px dashed rgba(255, 255, 255, 0.4); color: rgba(255, 255, 255, 0.8); width: 100%; padding: 15px; border-radius: 8px; cursor: pointer; font-size: 16px; text-align: center; }
 
-/* Form 'Add Task' */
+
 .add-task-form { background-color: white; border-radius: 8px; padding: 20px; color: #555; margin: 15px 0; }
 .add-task-form input[type="text"] { width: 100%; border: none; font-size: 22px; font-weight: bold; padding-bottom: 10px; outline: none; color: #555; }
 .add-task-form input[type="text"]::placeholder { color: #ddd; }

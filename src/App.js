@@ -2,9 +2,8 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import './App.css';
 import Timer from './components/Timer';
 import Tasks from './components/Tasks';
-import alarmSoundFile from './assets/alarmPomo.wav'; // Impor file suara lokal
+import alarmSoundFile from './assets/alarmPomo.wav'; 
 
-// Durasi dalam DETIK untuk setiap mode
 const modeDurations = {
   pomodoro: 25 * 60,
   shortBreak: 5 * 60,

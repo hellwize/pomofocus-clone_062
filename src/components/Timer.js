@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Terima 'onSkip' sebagai prop
 const Timer = ({ time, activeMode, changeMode, toggleTimer, isActive, buttonColor, onSkip }) => {
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;

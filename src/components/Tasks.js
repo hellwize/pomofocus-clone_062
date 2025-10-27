@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Tasks.css';
 import TaskEditForm from './TaskEditForm';
 
-// Terima semua props baru dari App.js
 const Tasks = ({ tasks, onSaveTask, onSetActiveTask, activeTaskId, editingTaskId, onSetEditingTask, onUpdateTask, onDeleteTask, onCancelEdit }) => {
   const [isAdding, setIsAdding] = useState(false);
   const [taskTitle, setTaskTitle] = useState('');
