@@ -1,0 +1,52 @@
+/* Ganti seluruh isi Tasks.css dengan ini */
+.tasks-wrapper {
+  margin-top: 30px;
+}
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.tasks-header h3 { margin: 0; font-weight: bold; }
+.menu-button, .task-menu-button { background-color: rgba(255, 255, 255, 0.2); border: none; border-radius: 4px; color: white; padding: 5px 10px; cursor: pointer; font-weight: bold; font-size: 18px; line-height: 1; }
+.task-menu-button { background: none; color: #888; }
+
+/* Styling untuk item task dalam daftar */
+.task-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-left: 5px solid transparent; /* Border default */
+  cursor: pointer;
+}
+.task-item.active {
+  border-left-color: #333; /* Border untuk task aktif */
+}
+.task-item .task-title { font-size: 16px; font-weight: bold; display: flex; align-items: center; }
+.check-icon { color: #dfdfdf; margin-right: 10px; }
+.task-item.active .check-icon { color: #333; }
+
+.task-progress { display: flex; align-items: center; gap: 10px; font-size: 16px; color: #aaa; }
+.task-progress span:first-child { font-weight: bold; color: #333; }
+
+/* Tombol 'Add Task' */
+.add-task-button { background-color: rgba(0, 0, 0, 0.1); border: 2px dashed rgba(255, 255, 255, 0.4); color: rgba(255, 255, 255, 0.8); width: 100%; padding: 15px; border-radius: 8px; cursor: pointer; font-size: 16px; text-align: center; }
+
+/* Form 'Add Task' */
+.add-task-form { background-color: white; border-radius: 8px; padding: 20px; color: #555; margin: 15px 0; }
+.add-task-form input[type="text"] { width: 100%; border: none; font-size: 22px; font-weight: bold; padding-bottom: 10px; outline: none; color: #555; }
+.add-task-form input[type="text"]::placeholder { color: #ddd; }
+.add-task-form label { display: block; margin-top: 20px; font-weight: bold; font-size: 16px; }
+.pomodoro-input-section input[type="number"] { background-color: #efefef; border: none; padding: 8px; border-radius: 4px; width: 80px; margin-top: 5px; font-size: 16px; }
+.form-actions-primary { background-color: #efefef; padding: 15px 20px; margin: 20px -20px -20px -20px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; text-align: right; margin-top: 20px; }
+.form-actions-primary button { border: none; padding: 10px 16px; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 14px; }
+.cancel-button { background: none; color: #888; margin-right: 10px; }
+.save-button { background-color: #222; color: white; }
