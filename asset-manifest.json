@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hellwize/pomofocus-clone_062.git/static/css/main.b8da2f51.css",
+    "main.js": "/hellwize/pomofocus-clone_062.git/static/js/main.51cf206a.js",
+    "static/js/453.112c5ad4.chunk.js": "/hellwize/pomofocus-clone_062.git/static/js/453.112c5ad4.chunk.js",
+    "static/media/alarmPomo.wav": "/hellwize/pomofocus-clone_062.git/static/media/alarmPomo.7ba9fbe41af175d976bf.wav",
+    "index.html": "/hellwize/pomofocus-clone_062.git/index.html",
+    "main.b8da2f51.css.map": "/hellwize/pomofocus-clone_062.git/static/css/main.b8da2f51.css.map",
+    "main.51cf206a.js.map": "/hellwize/pomofocus-clone_062.git/static/js/main.51cf206a.js.map",
+    "453.112c5ad4.chunk.js.map": "/hellwize/pomofocus-clone_062.git/static/js/453.112c5ad4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8da2f51.css",
+    "static/js/main.51cf206a.js"
+  ]
+}
